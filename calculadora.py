@@ -29,6 +29,7 @@ class Programa(App):
         botao12 = Button(text='*')
         botao13 = Button(text='/')
         botao14 = Button(text='=')
+        botao15 = Button(text='0')
 
         
         grid.add_widget(botao1)
@@ -45,6 +46,7 @@ class Programa(App):
         grid.add_widget(botao12)
         grid.add_widget(botao13)
         grid.add_widget(botao14)
+        grid.add_widget(botao15)
         
 
         main_layout.add_widget(grid)
