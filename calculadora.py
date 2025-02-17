@@ -50,7 +50,8 @@ class Programa(App):
         grid.add_widget(botao13)
         grid.add_widget(botao14)
         grid.add_widget(botao15)
-        
+        grid.add_widget(botao16)
+        grid.add_widget(botao17)
 
         main_layout.add_widget(grid)
 
